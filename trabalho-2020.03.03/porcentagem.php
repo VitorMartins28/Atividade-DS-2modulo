@@ -5,7 +5,7 @@ $valor_venda = 60;
 $lucro = $valor_venda - $valorReal;
 $porcentagem = $lucro/$valor_venda*100;
 
-   echo "O valor do produto R$". $valorReal. " Vendido por R$". $valor_venda. " o lucro é de R$".$lucro;
-   echo "A porcetagem é de ".round($porcentagem, 2)."%";
+   echo "O valor do produto R$". $valorReal. "<br> <br> Vendido por R$". $valor_venda. " o lucro é de R$".$lucro;
+   echo " <br> <br> A porcetagem é de ".round($porcentagem, 2)."%";
 
 
