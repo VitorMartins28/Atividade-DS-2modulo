@@ -7,7 +7,7 @@ $nun3 = 23;
 $nun4 = 1;
 
 $resultado = $nun1 + $nun2 + $nun3 +$nun4;
-echo "<br>---------------------Soma quatro variaveis--------------------------------- <br>" ;
+echo "<br>---------------------Somar quatro variaveis--------------------------------- <br>" ;
 echo "Resultado = ". $resultado;
 
 ?>

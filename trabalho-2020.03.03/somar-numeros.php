@@ -5,7 +5,7 @@ $nun1 = 50;
 $nun2 = 20;
 
 $resultado = $nun1 + $nun2;
-echo "---------------------Soma duas variaveis--------------------------------- <br>" ;
+echo "---------------------Somar duas variaveis--------------------------------- <br>" ;
 echo "Resultado = ". $resultado;
 
 ?>

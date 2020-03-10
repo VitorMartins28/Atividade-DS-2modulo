@@ -6,7 +6,7 @@ $nun2 = 20;
 $nun3 = 23;
 
 $resultado = $nun1 + $nun2 + $nun3;
-echo "<br>---------------------Soma tres variaveis--------------------------------- <br>" ;
+echo "<br>---------------------Somar tres variaveis--------------------------------- <br>" ;
 echo "Resultado = ". $resultado;
 
 ?>
