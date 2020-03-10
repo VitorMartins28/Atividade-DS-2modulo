@@ -1,10 +1,17 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <?php
-$num1 = 50;
-$num2 = 60;
-$resultado = $num2 - $num1;
+$valor = 0;
+$vendido = 0;
+$resultado = $vendido - $valor;
 
+if ($resultado > 0){
+   echo "O valor do produto R$". $valor. " Vendido por R$". $vendido. " o lucro é de R$".number_format($resultado,2, ',','.');
+}
+elseif($resultado < 0){
+   echo "O prejuizo é = ". number_format($resultado,2, ',','.');
+}
 
-   echo "O valor do produto R$". $num1. " Vendido por R$". $num2. " o lucro é de R$".$resultado;
-
+else{
+   echo "Empatou o resultado  R$". number_format($resultado,2, ',','.');
+}
 
