@@ -8,6 +8,9 @@ $resultado = $num1 + $num2;
 
 if($resultado < 0){
    echo "Resultado = ".$resultado. " o resultado é negativo";
-}else{
+}elseif($resultado > 0){
    echo "Resultado = ".$resultado. " o resultado é positivo";
+}
+else{
+   echo "Resultado = ".$resultado. " o resultado é neutro";
 }

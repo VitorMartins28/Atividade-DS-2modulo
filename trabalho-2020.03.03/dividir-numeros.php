@@ -2,7 +2,7 @@
 <?php  
 
 $nun1 = 50;
-$nun2 = 0;
+$nun2 = 28;
 
 if($nun2 == 0){
     echo "Não é possível fazer a divisão";
@@ -10,7 +10,7 @@ if($nun2 == 0){
 }
 
 $resultado = $nun1 / $nun2;
-echo "<br>--------------------- Divisão duas variaveis--------------------------------- <br>" ;
-echo "Resultado = ". $resultado; 
+echo "<br>--------------------- Divisão duas variaveis--------------------------------- <br><br>" ;
+echo "Resultado = ". round($resultado, 2); 
 
 ?>
