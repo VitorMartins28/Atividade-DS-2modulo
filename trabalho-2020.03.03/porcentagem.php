@@ -1,7 +1,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <?php
 $valorReal = 50;
-$valor_venda = 60;
+$valor_venda = 90;
 $lucro = $valor_venda - $valorReal;
 $porcentagem = $lucro/$valor_venda*100;
 
