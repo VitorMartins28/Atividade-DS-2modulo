@@ -1,14 +1,14 @@
 <?php
 
-$tab=0;
-elseif($tab < 0){
+$tab=1;
+
+if($tab < 0){
     echo "Valor Invalido";
-    exit;
 }
-if($tab > 0){
-    for($i=1; $i<=10; $i++){
-        $resultado = $tab * $i;
-        echo $tab." x ".$i." = ".$resultado."<br />";
-}
+elseif ($tab > 0){
+    echo $tab." x ".$count." = ".($tab*$count)."<br />";
+    $count++;
+   }while($count<=10);
+
 
 ?>
