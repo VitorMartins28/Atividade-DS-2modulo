@@ -1,14 +1,16 @@
 <?php
 
-$tab=1;
+$numero = 0;
+$tab = 15;
 
-if($tab < 0){
+if(!is_numeric ($tab)  || $tab < 0){
     echo "Valor Invalido";
+} else {
+    while ($numero <= 10){
+        echo $numero. "x". $tab . "=". ($numero*$tab)."<br>";
+        $numero++;
+    }
 }
-elseif ($tab > 0){
-    echo $tab." x ".$count." = ".($tab*$count)."<br />";
-    $count++;
-   }while($count<=10);
 
 
 ?>
